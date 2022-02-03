@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+:root{
+    --primary-color : #34568B;
+    --text-color-light: #444444;
+    --random : #45d6d6;
+    --page-background: rgb(252, 250, 250);
+}
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--page-background)
+}
+
+.logo-image{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+/* .logo-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 500px;
+    bottom: 400px;
+}
+
+.logo{
+    position: relative;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logo:before,
+.logo:after{
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid #34568B;
+    border-radius: 50px 50px 0 50px ;
+    transform: rotate(-45deg);
+}
+
+.logo::after{
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 0 50px ;
+    transform: rotate(135deg);
+    
+    
+}
+
+
+ */
+
+
+ .nav{
+     display: flex;
+     padding: 2.5rem 5rem;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .left-nav a{
+    color: rgb(29, 28, 28);
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-decoration: none;
+    
+ }
+
+ .right-nav{
+     display: flex;
+     gap: 25px;
+ }
+
+ .right-nav a{
+    color: rgb(70, 68, 68);
+     text-decoration: none;
+ }
+
+ .library-heading{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .heading_highlight{
+     color: var(--primary-color)
+ }
+
+.twin-btn{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    
+}
+
+ .btn{
+     padding: 0.8rem;
+     cursor: pointer;
+     box-shadow: rgb(0 0 0 / 24%) 0px 4px 9px;
+     border-radius: 5px;
+     font-weight: 600;
+     min-width: 100px;
+     border: none;
+ }
+
+ .btn.primary{
+    background-color: var(--primary-color);
+    color: rgb(247, 239, 239);
+ }
+
+ .subtext{
+     font-size: 17px;
+     display: flex;
+     justify-content: center;
+ }
+
+ 
