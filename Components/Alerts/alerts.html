@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/Components/Alerts/alerts.css">
+    <link rel="stylesheet" href="/css/intro.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAV -->
+
+    <nav class="nav">
+      <div class="left-nav">
+        <a href="/index.html">Endless</a>
+        <span>v1.0</span>
+      </div>
+      <div class="right-nav">
+        <a href="/Get Started/intro.html">Docs</a>
+        <a href="/Components/Avatar/avatar.html">Examples</a>
+      </div>
+    </nav>
+    <div class="doc-content">
+      <div class="side-bar">
+        <div class="content-heading">
+            <p>Get started</p>
+        </div>
+        <div class="sub-content">
+            <ul class="item-list    ">
+                <li><a href="/Get Started/intro.html">Introduction</a></li>
+                <li><a href="/Get Started/colors.html">Colors</a></li>
+                <li><a href="/Get Started/typography.html">Typography</a></li>
+                <li><a href="/Get Started/typography.html">Conclusion</a></li>
+            </ul>
+        </div>
+        <div class="content-heading">
+            <p><b>Components</b></p>
+        </div>
+        <div class="sub-content">
+            <ul class="item-list">
+                <li> <a href="/Components/Avatar/avatar.html"> Avatar</a></li>
+                <li><a href="/Components/Badges/badges.html">Badges</a></li>
+                <li><a href="/Components/Alerts/alerts.html">Alerts</a></li>
+                <li><a href="/Components/Buttons/buttons.html">Buttons</a></li>
+                <li><a href="/Components/Cards/cards.html">Cards</a></li>
+                <li><a href="/Components/image/image.html">Images</a></li>
+                <li><a href="/Components/Input/input.html">Input</a></li>
+                <li><a href="/Components/Snackbar/snackbar.html">Snackbar</a></li>
+            </ul>
+        </div>
+    </div>
+  
+      <!-- MAIN CONTENT  -->
+      <div class="content-bar">
+        <div class="content-title">Alert</div>
+        <div class="content-subtitle border_to_content">
+          Alert messages can be used to notify the user about something special:
+          danger, success, information or warning.
+        </div>
+        <div class="content-title">Simple Alert</div>
+        <div class="content-subtitle">
+          Simple alerts can be used using a simple header_content class followed
+          by the color of your choice. We are using four class variants : danger | success | info | warning
+        </div>
+        
+        <pre>
+            <code class="plaintext">
+              &lt;div class="header_component "&gt;
+              &lt;div class="header_content danger"&gt;
+              &lt;p&gt; &lt;b&gt;Danger!&lt;/b&gt; This header indicates a dangerous or potentially negative action &lt;/p&gt; 
+              &lt;/div&gt;  
+              &lt;/div&gt;
+        </code>
+        </pre>
+        <div class="content-example flex_column">
+          <div class="header_component ">
+            <div class="header_content danger">
+              <p>
+                <b>Danger!</b> This header indicates a dangerous or potentially
+                negative action
+              </p>
+            </div>
+          </div>
+          
+          <div class="header_component">
+            <div class="header_content success">
+              <p>
+                <b>Danger!</b> This header indicates a dangerous or potentially
+                negative action
+              </p>
+            </div>
+          </div>
+          <div class="header_component">
+              <div class="header_content info">
+                <p>
+                  <b>Danger!</b> This header indicates a dangerous or potentially
+                  negative action
+                </p>
+              </div>
+            </div>
+            <div class="header_component">
+              <div class="header_content warning">
+                <p>
+                  <b>Danger!</b> This header indicates a dangerous or potentially
+                  negative action
+                </p>
+              </div>
+            </div>
+        </div>
+  
+        <div class="content-title">Outline Alert</div>
+        <div class="content-subtitle">
+          Outline alerts are created by using header_content class, followed by outline-variant i.e danger | success | info | warning
+        </div>
+  
+        <pre>
+          <code class="plaintext">
+            &lt;div class="header_component "&gt;
+            &lt;div class="header_content outline-danger"&gt;
+            &lt;p&gt; &lt;b&gt;Danger!&lt;/b&gt; This header indicates a dangerous or potentially negative action &lt;/p&gt; 
+            &lt;/div&gt;  
+            &lt;/div&gt;
+      </code>
+      </pre>
+  
+        <div class="content-example flex_column">
+          <div class="header_component">
+            <div class="header_content outline-danger">
+              <p>
+                <b>Danger!</b> This header indicates a dangerous or potentially
+                negative action
+              </p>
+            </div>
+            </div>
+            <div class="header_component">
+  
+              <div class="header_content outline-success">
+                <p>
+                  <b>Danger!</b> This header indicates a dangerous or potentially
+                  negative action
+                </p>
+              </div>
+            </div>
+            <div class="header_component">
+              <div class="header_content outline-info">
+                <p>
+                  <b>Danger!</b> This header indicates a dangerous or potentially
+                  negative action
+                </p>
+              </div>
+            </div>
+            <div class="header_component">
+              <div class="header_content outline-warning">
+                <p>
+                  <b>Danger!</b> This header indicates a dangerous or potentially
+                  negative action
+                </p>
+              </div>
+            </div>
+            
+      </div>
+    </div>
+    
+  </body>
+  <script
+  src="https://kit.fontawesome.com/fbbd0ff1df.js"
+  crossorigin="anonymous"
+></script>
+<script src="/highlight.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</html>
+
