@@ -1,0 +1,89 @@
+.badges {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: max-content;
+  }
+  
+  .badges.flex_column {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .badge_type {
+    position: relative;
+  }
+  .badge_number {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .badge_number.type1 {
+    left: 8.5rem;
+    top: -1rem;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .badge_number.type2 {
+    left: 11rem;
+    top: -1.5rem;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .badge_number.type3 {
+    width: 30px;
+    height: 30px;
+    background-color: #ff4081;
+    top: -15px;
+    left: 2rem;
+  }
+  
+  .badge_number.type4 {
+    width: 30px;
+    height: 30px;
+    background-color: #ff4081;
+    top: -11px;
+    left: 2rem;
+  }
+  
+  .badge_number.type5 {
+    width: 30px;
+    height: 30px;
+    background-color: #ff4081;
+    top: -11px;
+    left: 2rem;
+  }
+  
+  .badge_number.available{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    top: 42px;
+    left: 35px;
+  }
+  
+  .badge_number.offline{
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    top: 42px;
+    left: 35px;
+  }
+  
+  .badge_number.busy{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    top: 42px;
+    left: 35px;
+  }
+  
