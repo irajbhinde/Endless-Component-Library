@@ -1,3 +1,12 @@
+@import url(../Components/Alerts/alerts.css);
+@import url(../Components/Buttons/buttons.css);
+@import url(../Components/Cards/);
+@import url(../Components/image/image.css);
+@import url(../Components/Input/input.css);
+@import url(../Components/Snackbar/snackbar.css);
+@import url(../css/landing.css);
+@import url(../styles/nord.min.css);
+
 *{
     padding: 0;
     margin: 0;
