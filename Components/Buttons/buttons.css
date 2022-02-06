@@ -1,0 +1,50 @@
+.btn {
+  min-width: 100px;
+  width: max-content;
+  padding: 0.8rem;
+  border-radius: 2px;
+  border: none;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: var(--white-text-color);
+}
+
+.secondary-btn {
+  background-color: #ebba57;
+  color: var(--white-text-color);
+}
+
+.icon-btn {
+  background-color: var(--primary-color);
+  color: var(--white-text-color);
+}
+
+.link {
+  background-color: #6f99de;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn.floating-plus {
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+  color: tomato;
+}
+
+.btn.floating-direction {
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+}
+
+.btn.floatin-compass {
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+}
