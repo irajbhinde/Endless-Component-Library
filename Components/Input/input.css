@@ -1,0 +1,23 @@
+.input-title.error {
+  color: var(--alert-danger);
+}
+
+.input-field,
+.input-title {
+  width: 23.5rem;
+  height: 1.688rem;
+}
+
+.flex_row {
+  display: flex;
+}
+
+.input-name {
+  font-size: small;
+}
+
+.gender {
+  align-items: center;
+  gap: 10px;
+}
+
