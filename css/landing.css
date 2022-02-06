@@ -7,6 +7,11 @@
     --page-background: rgb(252, 250, 250);
     --secondary-color : #EBBA57;
     --example-background : #f5f7f9;
+    --alert-danger : #f44336;
+    --white-text-color :  #f7eaea;
+    --success-green : #04aa6d;
+    --warning-yellow : #ff9800
+    
 }
 
 *{

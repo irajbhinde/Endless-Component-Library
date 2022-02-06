@@ -1,6 +1,8 @@
 @import url(../Components/Alerts/alerts.css);
+@import url(../Components/Avatar/avatar.css);
+@import url(../Components/Badges/badges.css);
 @import url(../Components/Buttons/buttons.css);
-@import url(../Components/Cards/);
+@import url(../Components/Cards/cards.css);
 @import url(../Components/image/image.css);
 @import url(../Components/Input/input.css);
 @import url(../Components/Snackbar/snackbar.css);
