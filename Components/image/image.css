@@ -1,0 +1,16 @@
+
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+
+.round-image{
+    border-radius: 50%;
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+.padding{
+  padding: 2rem;
+}
+

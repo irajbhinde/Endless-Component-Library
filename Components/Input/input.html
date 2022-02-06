@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/landing.css" />
+    <link rel="stylesheet" href="/css/intro.css" />
+    <link rel="stylesheet" href="/styles/nord.min.css" />
+    <link rel="stylesheet" href="/Components/Input/input.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="left-nav">
+        <a href="/index.html">Endless</a>
+        <span>v1.0</span>
+      </div>
+      <div class="right-nav">
+        <a href="/Get Started/intro.html">Docs</a>
+        <a href="/Components/Avatar/avatar.html">Examples</a>
+      </div>
+    </nav>
+
+    <div class="doc-content">
+      <div class="side-bar">
+        <div class="content-heading">
+          <p>Get started</p>
+        </div>
+        <div class="sub-content">
+          <ul class="item-list">
+            <li><a href="/Get Started/intro.html">Introduction</a></li>
+            <li><a href="/Get Started/colors.html">Colors</a></li>
+            <li><a href="/Get Started/typography.html">Typography</a></li>
+            <li><a href="/Get Started/conclusion.html">Conclusion</a></li>
+          </ul>
+        </div>
+        <div class="content-heading">
+          <p><b>Components</b></p>
+        </div>
+        <div class="sub-content">
+          <ul class="item-list">
+            <li></li>
+            <li><a href="/Components/Avatar/avatar.html"> Avatar</a></li>
+            <li><a href="/Components/Badges/badges.html">Badges</a></li>
+            <li><a href="/Components/Alerts/alerts.html">Alerts</a></li>
+            <li><a href="/Components/Buttons/buttons.html">Buttons</a></li>
+            <li><a href="/Components/Cards/cards.html">Cards</a></li>
+            <li><a href="/Components/image/image.html">Images</a></li>
+            <li><a href="/Components/Input/input.html">Input</a></li>
+            <li><a href="/Components/Snackbar/snackbar.html">Snackbar</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-bar">
+        <div class="content-title">Inputs</div>
+        <div class="content-subtitle">
+          Inputs are necessary for user interaction with the website. Inputs are
+          used to take information from the user, and then save the data to the
+          server, accordingly.
+        </div>
+        <div class="content-title">Input Textbox</div>
+        <div class="content-subtitle">
+          Input textbox can be used to take information from user such as Email
+          Id, phone number, address & other descriptions
+        </div>
+        <pre>
+                <code class="plaintext">
+                    &lt;div class="input-container"&gt;
+                    &lt;p class="input-title">Username*&lt;/p&gt;
+                    &lt;input class="input-field" type="text"&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+
+        <div class="content-example">
+          <div class="input-container ">
+            <p class="input-title">Username*</p>
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+        <div class="content-title">Input Textbox with Validation</div>
+        <div class="content-subtitle">
+          Input validations can be used to show user about an error in the input
+          entered.
+        </div>
+
+        <pre>
+                <code class="plaintext">
+                    &lt;div class="input-container"&gt;
+                    &lt;p class="input-title error">Username*&lt;/p&gt;
+                    &lt;input class="input-field" type="text"&gt;
+                    &lt;p class="input-title error">Wrong username try again*&lt;/p&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+
+        <div class="content-example padding">
+          <div class="input-container ">
+            <p class="input-title error">Username*</p>
+            <input class="input-field" type="text" />
+            <p class="input-title error">Wrong username try again</p>
+          </div>
+        </div>
+        <div class="content-title">Input Passwords</div>
+        <div class="content-subtitle">
+          Input passwords can be used for users to enter their passwords in such
+          a manner that whenever user enters the password, it is not visible on
+          the screen in form of letters.
+        </div>
+
+        <pre>
+            <code class="plaintext">
+                &lt;div class="input-container"&gt;
+                &lt;p class="input-title">Password*&lt;/p&gt;
+                &lt;input type="password" class="input-field" type="text" /&gt;
+                &lt;/div&gt;
+                
+            </code>
+        </pre>
+
+        <div class="content-example">
+          <div class="input-container ">
+            <p class="input-title">Password*</p>
+            <input type="password" class="input-field" type="text" />
+          </div>
+        </div>
+
+        <div class="content-title">Input Type Radio</div>
+        <div class="content-subtitle">
+          Radio buttons let a user select ONLY ONE of a limited number of
+          choices:
+        </div>
+        <pre>
+            <code class="plaintext">
+                &lt;div class="input-container"&gt;
+                &lt;p>Select your gender&lt;/p&gt;
+                &lt;div class="gender flex_row"&gt;
+                &lt;input type="radio" name="gender" value="male" /&gt; Male
+                &lt;input type="radio" name="gender" value="Female" /&gt; Female
+                &lt;input type="radio" name="gender" value="Others" /&gt; Other
+                &lt;/div&gt;
+                &lt;/div&gt;
+                
+            </code>
+        </pre>
+
+        <div class="content-example">
+          <div class="input-container">
+            <p>Select your gender</p>
+            <div class="gender flex_row">
+              <input type="radio" name="gender" value="male" /> Male
+              <input type="radio" name="gender" value="Female" /> Female
+              <input type="radio" name="gender" value="Others" /> Other
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/highlight.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</html>
