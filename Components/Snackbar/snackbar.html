@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/landing.css" />
+    <link rel="stylesheet" href="/css/intro.css" />
+    <link rel="stylesheet" href="/Components/Snackbar/snackbar.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snackbar</title>
+</head>
+<body>
+    <!-- NAV -->
+
+    <nav class="nav">
+        <div class="left-nav">
+          <a href="/index.html">Endless</a>
+          <span>v1.0</span>
+        </div>
+        <div class="right-nav">
+          <a href="/Get Started/intro.html">Docs</a>
+          <a href="/Components/Avatar/avatar.html">Examples</a>
+        </div>
+      </nav>
+
+      <div class="doc-content">
+
+        <div class="side-bar">
+            <div class="content-heading">
+                <p>Get started</p>
+            </div>
+            <div class="sub-content">
+                <ul class="item-list    ">
+                    <li><a href="/Get Started/intro.html">Introduction</a></li>
+                    <li><a href="/Get Started/colors.html">Colors</a></li>
+                    <li><a href="/Get Started/typography.html">Typography</a></li>
+                    <li><a href="/Get Started/conclusion.html">Conclusion</a></li>
+                </ul>
+            </div>
+            <div class="content-heading">
+                <p><b>Components</b></p>
+            </div>
+            <div class="sub-content">
+                <ul class="item-list">
+                    <li> <a href="/Components/Avatar/avatar.html"> Avatar</a></li>
+                    <li><a href="/Components/Badges/badges.html">Badges</a></li>
+                    <li><a href="/Components/Alerts/alerts.html">Alerts</a></li>
+                    <li><a href="/Components/Buttons/buttons.html">Buttons</a></li>
+                    <li><a href="/Components/Cards/cards.html">Cards</a></li>
+                    <li><a href="/Components/image/image.html">Images</a></li>
+                    <li><a href="/Components/Input/input.html">Input</a></li>
+                    <li><a href="/Components/List/lists.html">List</a></li>
+                    <li><a href="/Components/Ratings/ratings.html">Ratings</a></li>
+                    <li><a href="/Components/Snackbar/snackbar.html">Snackbar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-bar">
+            <div class="content-title">Snackbar</div>
+            <div class="content-subtitle">
+                Snackbars provide brief messages about app processes at the bottom of the screen.
+            </div>
+            <div class="content-title">Baseline Snackbar</div>
+            <div class="content-subtitle">
+                Baseline Snackbars have a fixed position & can be used to display a message on the left end on the screen. In our component library, we are using it as an error message. 
+            </div>
+            <pre>
+                <code class="plaintext">
+            <-- Using the 'baseline' class name -->
+        
+            &lt;div class="snackbar baseline"&gt;
+                &lt;span class="snackbar_text-error"&gt;Can't send photo. Retry in 5 seconds.&lt;/span&gt;
+                &lt;button class="snackbar-btn"&gt;
+                &emsp;&lt;b&gt; RETRY &lt;/b&gt; 
+                &lt;/button&gt;
+                &lt;i style="color: white;" class="far fa-times-circle fa-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+                </code>
+              </pre>
+            <div class="content-example">
+                <!-- Use baseline below -->
+                <div class="snackbar">
+                    <span class="snackbar_text-error">Can't send photo. Retry in 5 seconds.
+                    </span>
+                    <button class="snackbar-btn">
+                       <b> RETRY </b> 
+                    </button>
+                    <i style="color: white;" class="far fa-times-circle fa-lg"></i>
+                </div>
+            </div>
+            <div class="content-title">Leading Snackbar</div>
+            <div class="content-subtitle">
+                Leading Snackbars have a fixed position & can be used to display a message on the middle of the screen. In our component library, we are using it as an success message. 
+            </div>
+            <pre>
+                <code class="plaintext">
+            <-- Using the 'baseline' class name -->
+        
+            &lt;div class="snackbar"&gt;
+                &lt;span class="snackbar_text-success"&gt;Item Uploaded Successfully&lt;/span&gt;
+                &lt;button class="snackbar-btn"&gt;
+                &emsp;&lt;b&gt; Undo &lt;/b&gt; 
+                &lt;/button&gt;
+                &lt;i style="color: white;" class="far fa-times-circle fa-lg"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+                </code>
+              </pre>
+            <div class="content-example">
+                <!-- Use leading below  -->
+                <div class="snackbar">
+                    <span class="snackbar_text-success">Item Uploaded Successfully
+                    </span>
+                    <button class="snackbar-btn">
+                       <b> UNDO </b>
+                    </button>
+                    <i style="color: white;" class="far fa-times-circle fa-lg"></i>
+                </div>
+            </div>
+                
+        
+
+        
+        </div>
+      </div>
+</body>
+<script
+  src="https://kit.fontawesome.com/fbbd0ff1df.js"
+  crossorigin="anonymous"
+></script>
+<script src="/highlight.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</html>
