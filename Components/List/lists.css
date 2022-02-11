@@ -1,0 +1,66 @@
+.lists {
+  width: 15rem;
+  height: auto;
+  background-color: white;
+  /* box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 24%); */
+}
+
+.title {
+  border-bottom: 1px solid rgb(156, 153, 153);
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 30px;
+  list-style: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.categories li:hover, 
+.notification-msg li:hover {
+  color: var(--primary-color);
+}
+
+.spaced-list li{
+    list-style: none;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.stacked-list{
+    
+    width: 45rem;
+    min-height: 8rem;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 24%);
+    /* border-radius: 20px; */
+    /* border-start-start-radius: 1rem;
+    border-top-right-radius: 1rem; */
+    border-radius: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.app-name{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px;
+    justify-content: space-between;
+    color: rgb(128, 122, 122);
+}
+
+.app-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.notification-msg{
+    padding-left: 1rem;
+    cursor: pointer;
+    list-style: none;
+    font-size: 12px;
+}

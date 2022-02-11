@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/landing.css" />
+    <link rel="stylesheet" href="/css/intro.css" />
+    <link rel="stylesheet" href="/Components/List/lists.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+  </head>
+  <body>
+    <!-- NAV -->
+
+    <nav class="nav">
+      <div class="left-nav">
+        <a href="/index.html">Endless</a>
+        <span>v1.0</span>
+      </div>
+      <div class="right-nav">
+        <a href="/Get Started/intro.html">Docs</a>
+        <a href="/Components/Avatar/avatar.html">Examples</a>
+      </div>
+    </nav>
+    <div class="doc-content">
+      <div class="side-bar">
+        <div class="content-heading">
+          <p>Get started</p>
+        </div>
+        <div class="sub-content">
+          <ul class="item-list">
+            <li><a href="/Get Started/intro.html">Introduction</a></li>
+            <li><a href="/Get Started/colors.html">Colors</a></li>
+            <li><a href="/Get Started/typography.html">Typography</a></li>
+            <li><a href="/Get Started/conclusion.html">Conclusion</a></li>
+          </ul>
+        </div>
+        <div class="content-heading">
+          <p><b>Components</b></p>
+        </div>
+        <div class="sub-content">
+          <ul class="item-list">
+            <li><a href="/Components/Avatar/avatar.html"> Avatar</a></li>
+            <li><a href="/Components/Badges/badges.html">Badges</a></li>
+            <li><a href="/Components/Alerts/alerts.html">Alerts</a></li>
+            <li><a href="/Components/Buttons/buttons.html">Buttons</a></li>
+            <li><a href="/Components/Cards/cards.html">Cards</a></li>
+            <li><a href="/Components/image/image.html">Images</a></li>
+            <li><a href="/Components/Input/input.html">Input</a></li>
+            <li><a href="/Components/List/lists.html">List</a></li>
+            <li><a href="/Components/Ratings/ratings.html">Ratings</a></li>
+            <li><a href="/Components/Snackbar/snackbar.html">Snackbar</a></li>
+            <li><a href="/Components/Chips/chips.html">Chips</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-bar">
+        <div class="content-title">Lists</div>
+        <div class="content-subtitle">
+          HTML lists allow web developers to group a set of related items in
+          lists.
+        </div>
+        <div class="content-title">Simple Lists</div>
+        <div class="content-subtitle">
+          As the name suggests, this is a simple list which contains various
+          items
+        </div>
+        <pre>
+                <code class="plaintext">
+                    &lt;div class="lists"&gt;
+                        &lt;div class="title"&gt;
+                            &lt;b&gt;Categories&lt;/b&gt;
+                        &lt;/div&gt;
+                                &lt;ul class="categories"&gt;
+                                &lt;li>Mobile&lt;/li&gt;
+                                &lt;li>Laptop&lt;/li&gt;
+                                &lt;li>Refrigerator&lt;/li&gt;
+                                &lt;li>Air Conditioners&lt;/li&gt;
+                            &lt;/ul&gt;  
+                  &lt;/div&gt;
+            </code>
+            </pre>
+        <div class="content-example padding">
+          <div class="lists">
+            <div class="title">
+              <b>Categories</b>
+            </div>
+            <ul class="categories">
+              <li>Mobile</li>
+              <li>Laptop</li>
+              <li>Refrigerator</li>
+              <li>Air Conditioners</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-title">Spaced Lists</div>
+        <div class="content-subtitle">
+          Spaced lists can be used to a category within an item
+        </div>
+        <pre>
+                <code class="plaintext">
+                    &lt;div class="lists"&gt;
+                        &lt;div class="title"&gt;
+                            &lt;b&gt;Categories&lt;/b&gt;
+                        &lt;/div&gt;
+                            &lt;ul class="categories"&gt;
+                                &lt;li&gt;Laptop&lt;/li&gt;
+                                &lt;ul class="spaced-list"&
+                                &lt;span>Mobile&lt;/span&gt;
+                                &lt;li&gt;Apple&lt;/li&gt;
+                                &lt;li&gt;Samsung&lt;/li&gt;
+                                &lt;li&gt;Oneplus&lt;/li&gt;
+                                &lt;/ul&gt;
+                        
+                            &lt;li&gt;Refrigerator&lt;/li&gt;
+                            &lt;li&gt;Air Conditioners&lt;/li&gt;
+                            &lt;/ul&gt;  
+                  &lt;/div&gt;
+            </code>
+            </pre>
+
+        <div class="content-title">Stacked Lists</div>
+        <div class="content-subtitle">
+          Stacked list can be used to show a notification to users where they
+          can view a recent activity or any content which grabs their attention
+        </div>
+        <div class="content-example">
+          <div class="lists">
+            <div class="title">
+                <b>Categories</b>
+            </div>
+                <ul class="categories">
+                    <li>Laptop</li>
+                    <ul class="spaced-list">
+                    <span>Mobile</span>
+                    <li>Apple</li>
+                    <li>Samsung</li>
+                    <li>Oneplus</li>
+                    </ul>
+            
+                <li>Refrigerator</li>
+                <li>Air Conditioners</li>
+                </ul>  
+            </div>
+        </div>
+
+        <div class="content-title">Notification List</div>
+        <div class="content-subtitle">
+          Notification List can be used to show a set of notification to the user
+        </div>
+        <div class="content-example padding">
+          <div class="stacked-list">
+            <div class="app-name">
+              <div class="app-logo">
+                <i class="fab fa-instagram fa-2x"></i>
+                <span>Instagram</span>
+              </div>
+              <span>1:30AM</span>
+            </div>
+
+            <ul class="notification-msg">
+              <li>Raj Bhinde commented on your post</li>
+              <li>Shubham liked your post</li>
+              <li>Divya liked your post</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/highlight.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <script
+    src="https://kit.fontawesome.com/fbbd0ff1df.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
