@@ -1,0 +1,108 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  height: auto;
+  box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
+    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+  padding: 1rem;
+  flex-wrap: wrap ;
+}
+
+.cards.textonly, .cards.horizontal{
+  width: 350px;
+}
+
+.cards.textonly {
+  box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
+    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+  background-color: white;
+}
+
+.text-only-title {
+  padding: 0.5rem 1rem 0.5rem;
+  font-size: 25px;
+}
+.text-only-description {
+  font-size: 14px;
+  padding: 0.5rem 1rem 0.5rem;
+  color: var(--text-color-light);
+}
+
+.img_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+
+.cards-image,
+.cards-title,
+.cards-description {
+  padding-bottom: 1rem;
+}
+
+.btn-card {
+  background-color: var(--primary-color);
+  color: var(--white-text-color);
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.top-left-badge {
+  top: 10px;
+  color: var(--white-text-color);
+  background-color: var(--alert-danger);
+  font-size: 12px;
+  position: absolute;
+  padding: 0.3rem;
+  width: max-content;
+}
+
+.top-right-badge {
+  right: 1px;
+  top: 20px;
+  color: white;
+  position: absolute;
+  padding: 0.3rem;
+}
+
+.cards-title.onimage {
+  position: absolute;
+  top: 11rem;
+  color: white;
+  margin-left: 10px;
+}
+
+.img_txt_onside {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+
+.buttons_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cards-title-horizontal {
+  padding: 1rem;
+}
+
+.cards-title.vertical-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-card.vertical-card {
+  width: 21.875rem;
+}
+
+.max-height{
+  max-height: 20rem;
+}
