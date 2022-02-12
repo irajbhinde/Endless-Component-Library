@@ -10,7 +10,7 @@
 }
 
 .cards.textonly, .cards.horizontal{
-  width: 350px;
+  width: 21.875rem;
 }
 
 .cards.textonly {
@@ -21,10 +21,10 @@
 
 .text-only-title {
   padding: 0.5rem 1rem 0.5rem;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 .text-only-description {
-  font-size: 14px;
+  font-size: 0.875;
   padding: 0.5rem 1rem 0.5rem;
   color: var(--text-color-light);
 }
@@ -46,16 +46,16 @@
 .btn-card {
   background-color: var(--primary-color);
   color: var(--white-text-color);
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   cursor: pointer;
   border: none;
 }
 
 .top-left-badge {
-  top: 10px;
+  top: 0.625rem;
   color: var(--white-text-color);
   background-color: var(--alert-danger);
-  font-size: 12px;
+  font-size: 0.75rem;
   position: absolute;
   padding: 0.3rem;
   width: max-content;
@@ -63,7 +63,7 @@
 
 .top-right-badge {
   right: 1px;
-  top: 20px;
+  top: 1.25rem;
   color: white;
   position: absolute;
   padding: 0.3rem;
@@ -73,7 +73,7 @@
   position: absolute;
   top: 11rem;
   color: white;
-  margin-left: 10px;
+  margin-left: 0.688rem;
 }
 
 .img_txt_onside {
