@@ -1,0 +1,34 @@
+.chips {
+  display: flex;
+  margin-bottom: 10px;
+  width: max-content;
+  border-radius: 16px;
+  padding: 7px 8px 7px 12px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 29px;
+}
+
+.bg-pink {
+  background-color: #ff4081;
+}
+
+.bg-gray {
+  background-color: #e0e0e0;
+}
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.bg-lemon {
+  background-color: #daf7a6;
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.bg-black{
+  background-color: var(--black-bg);
+  color: var(--white-text-color);
+}
