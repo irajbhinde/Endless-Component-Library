@@ -1,12 +1,12 @@
 .chips {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   width: max-content;
-  border-radius: 16px;
-  padding: 7px 8px 7px 12px;
+  border-radius: 1rem;
+  padding: 0.438rem 0.5rem 0.438rem 0.75rem;
   align-items: center;
   justify-content: space-around;
-  gap: 29px;
+  gap: 1.813rem;
 }
 
 .bg-pink {
