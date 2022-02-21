@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  gap: 30px;
+  gap: 1.875rem;
   list-style: none;
   font-size: 15px;
   cursor: pointer;
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     padding: 1rem;
-    gap: 10px;
+    gap: 1.875rem;
     justify-content: space-between;
     color: rgb(128, 122, 122);
 }
