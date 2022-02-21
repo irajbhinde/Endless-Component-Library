@@ -42,3 +42,20 @@
     left: 1rem;
     bottom: 0.5rem;
   }
+
+  .error{
+    display: none;
+    position: fixed;
+    left: 34rem;
+    bottom: 0.5rem;
+  }
+  .success{
+    display: none;
+    position: fixed;
+    left: 1rem;
+    bottom: 0.5rem;
+  }
+
+.color-white{
+  color: white;
+}
