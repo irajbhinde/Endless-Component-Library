@@ -42,3 +42,7 @@
     left: 1rem;
     bottom: 0.5rem;
   }
+
+  .error, .success{
+    display: none;
+  }
