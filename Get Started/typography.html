@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="/css/intro.css" />
-    <link rel="stylesheet" href="/Get Started/colors.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Typography</title>
+    <title>Text Utilities</title>
+    <link rel="stylesheet" href="/Get Started/typography.css" />
+    <link rel="stylesheet" href="/css/intro.css" />
   </head>
   <body>
     <nav class="nav">
@@ -20,6 +20,7 @@
       </div>
     </nav>
     <div class="doc-content">
+      <!-- SIDE BAR  -->
       <div class="side-bar">
         <div class="content-heading">
           <p>Get started</p>
@@ -51,10 +52,84 @@
           </ul>
         </div>
       </div>
+      <!-- MAIN CONTENT  -->
       <div class="content-bar">
-        <img src="/Images/under_const.svg" alt="Error" />
-        <h2>Page Under Construction</h2>
+        <div class="content-title">Gray Text</div>
+        <div class="content-subtitle">
+          For many people, white text is too high in contrast for a background
+          so we lighten the white into a light grey to make it easier for the
+          users eye.
+        </div>
+        <pre>
+            <code class="plaintext">
+                &lt;p class="light-gray"&gt;This is light gray text&lt;/p&gt;
+                &lt;p class="dark-gray"&gt;This is dark gray text&lt;/p&gt;
+        </code>
+        </pre>
+        <div class="content-example flex_column">
+          <p class="light-gray">This is light gray text</p>
+          <p class="dark-gray">This is dark gray text</p>
+        </div>
+
+        <div class="content-title">Center Text</div>
+        <div class="content-subtitle">
+          The text-align property specifies the horizontal alignment of text in
+          an element in such a manner that it is placed in center. You can
+          further use properties like display flex + justify content / align
+          items to position your text in center accordingly
+        </div>
+        <pre>
+            <code class="plaintext">
+                &lt;p class="center-text"&gt;This is a centered text&lt;/p&gt;
+        </code>
+        </pre>
+        <div class="content-example">
+          <p class="center-text">This is a centered text</p>
+        </div>
+        <div class="content-title">Headings</div>
+        <div class="content-subtitle">
+          The &lt;h1&gt; to &lt;h6&gt; HTML elements represent six levels of
+          section headings. &lt;h1&gt; is the highest section level and
+          &lt;h6&gt; is the lowest.
+        </div>
+        <pre>
+            <code class="plaintext">
+                &lt;h1&gt;This is H1&lt;/h1&gt;
+                &lt;h2&gt;This is H2&lt;/h2&gt;
+                &lt;h3&gt;This is H3&lt;/h3&gt;
+                &lt;h4&gt;This is H4&lt;/h4&gt;
+                &lt;h5&gt;This is H5&lt;/h5&gt;
+                &lt;h6&gt;This is H6&lt;/h6&gt;
+            </code>
+        </pre>
+        <div class="content-example flex_column padding">
+          <h1>This is H1</h1>
+          <h2>This is H2</h2>
+          <h3>This is H3</h3>
+          <h4>This is H4</h4>
+          <h5>This is H5</h5>
+          <h6>This is H6</h6>
+        </div>
+        <div class="content-title">Small Text</div>
+        <div class="content-subtitle">
+          The HTML &lt;small&gt; tag makes text one font size smaller in the
+          HTML document. This tag is also commonly referred to as the
+          &lt;small&gt; element.
+        </div>
+        <pre>
+            <code class="plaintext">
+                &lt;small&gt;This is a small text&lt;/small&gt;
+            </code>
+        </pre>
+        <div class="content-example flex_column">
+          <p>This is a regular text</p>
+          <small>This is a small text</small>
+        </div>
       </div>
     </div>
   </body>
 </html>
+<script src="/highlight.js"></script>
+<script>
+  hljs.highlightAll();
+</script>
