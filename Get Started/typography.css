@@ -1,0 +1,11 @@
+.light-gray{
+    color: var(--light-gray-text);
+}
+
+.dark-gray{
+    color: var(--dark-gray-text);
+}
+
+.center-text{
+    text-align: center;
+}
