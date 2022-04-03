@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+  width: 50rem;
+  height: 10rem;
+}
+
+.grid_w_two-items {
+  grid-template-areas: 
+  "ItemOne ItemTwo"
+   "ItemThree ItemFour";
+}
+
+.grid_w_three-items{
+    grid-template-areas: 
+    "ItemOne ItemTwo ItemThree"
+    "ItemFour ItemFive ItemSix";
+}
+
+.item_one,
+.item_two, .item_three, .item_four, .item_five, .item_six {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.item_one {
+  background-color: var(--primary-color);
+  grid-area: ItemOne;
+}
+
+.item_two {
+  background-color: var(--secondary-color);
+  grid-area: ItemTwo;
+}
+.item_three {
+    background-color: var(--success-green);
+    grid-area: ItemThree;
+  }
+
+.item_four{
+  background-color: var(--primary-color);
+  grid-area: ItemFour;
+}
+
+.item_five{
+  background-color: var(--secondary-color);
+  grid-area: ItemFive;
+}
+
+.item_six{
+  background-color: var(--success-green);
+  grid-area: ItemSix;
+}
