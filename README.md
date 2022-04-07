@@ -13,5 +13,5 @@ Images,
 Input,
 List,
 Ratings,
-Snackbar & 
-Chips
+Snackbar, 
+Chips, Modal, Grid, Navigation & Text Utilities
