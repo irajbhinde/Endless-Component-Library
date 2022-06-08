@@ -5,4 +5,4 @@
 - Grid
 - Modal
 - Navigation
-- Typographyw
+- Typography
