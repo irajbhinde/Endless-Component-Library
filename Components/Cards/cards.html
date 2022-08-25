@@ -62,13 +62,40 @@
 
             <div class="content-title">Cards</div>
             <div class="content-subtitle">
-               <p> Cards are surfaces that display content and actions on a single topic.</p>
-               <br>
-               <p>They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.</p>
+               <p> Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+               </p>
             </div>
             <div class="content-title">Cards with badges</div>
             <div class="content-subtitle">
                 Cards with badges are useful for showing quick, glanceable information on the front of cards. You can provide an icon, some text, as well as an optional color for each of your badges. .</p>
+            </div>
+            <div class="content-example padding">
+                <div class="cards basic">
+                    <div class="img_text">
+                      <span class="top-left-badge">Trending </span>
+                        <div class="cards-image">
+                          <img  src="https://picsum.photos/250/250" />
+                        </div>
+                          
+                      <div class="cards-title">
+                        <p><b>Our Changing planet</b></p>
+                        <small> by Kurt Wagner </small>
+                      </div>
+                      <div class="cards-description">
+                        <p>
+                          Visit ten places on our planet that are undergoing the biggest
+                          changes today.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="buttons_icons">
+                      <button class="btn-card read">Read</button>
+                      <button class="btn-card bookmark">Bookmark</button>
+                      <i class=" far fa-heart fa-lg"></i>
+                      <i class=" fas fa-share-alt fa-lg"></i>
+                      <i class=" fas fa-ellipsis-v fa-lg"></i>
+                    </div>
+                  </div>
             </div>
             <pre>
               <code class="plaintext max-height">
@@ -100,40 +127,39 @@
                   &lt;/div&gt;
               </code>
             </pre>
-            <div class="content-example padding">
-                <div class="cards basic">
-                    <div class="img_text">
-                      <span class="top-left-badge">Trending </span>
-                        <div class="cards-image">
-                          <img  src="https://picsum.photos/250/250" />
-                        </div>
-                          
-                      <div class="cards-title">
-                        <p><b>Our Changing planet</b></p>
-                        <small> by Kurt Wagner </small>
-                      </div>
-                      <div class="cards-description">
-                        <p>
-                          Visit ten places on our planet that are undergoing the biggest
-                          changes today.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="buttons_icons">
-                      <button class="btn-card read">Read</button>
-                      <button class="btn-card bookmark">Bookmark</button>
-                      <i class=" far fa-heart fa-lg"></i>
-                      <i class=" fas fa-share-alt fa-lg"></i>
-                      <i class=" fas fa-ellipsis-v fa-lg"></i>
-                    </div>
-                  </div>
-            </div>
-
             <!-- CARDS WITH DISMISS  -->
 
             <div class="content-title">Cards with dismiss icon</div>
             <div class="content-subtitle">
                <p> Cards with dismiss icon allows user to close / dismiss the card being presented.</p>
+            </div>
+            <div class="content-example padding">
+              <div class="cards basic">
+                <div class="img_text">
+                    <span class="top-left-badge">On Sale</span>
+                    <i class="fa-solid fa-circle-xmark fa-lg top-right-badge"></i>
+                    <div class="cards-image">
+                      <img  src="https://picsum.photos/350/250" />
+                    </div>
+                  <div class="cards-title">
+                    <p><b>Our Changing planet</b></p>
+                    <small> by Kurt Wagner </small>
+                  </div>
+                  <div class="cards-description">
+                    <p>
+                      Visit ten places on our planet that are undergoing the biggest
+                      changes today.
+                    </p>
+                  </div>
+                </div>
+                <div class="buttons_icons">
+                  <button class="btn-card read">Read</button>
+                  <button class="btn-card bookmark">Bookmark</button>
+                  <i class=" far fa-heart fa-lg"></i>
+                  <i class=" fas fa-share-alt fa-lg"></i>
+                  <i class=" fas fa-ellipsis-v fa-lg"></i>
+                </div>
+              </div>
             </div>
             <pre>
               <code class="plaintext max-height">
@@ -165,24 +191,27 @@
               &lt;/div&gt;
               </code>
             </pre>
+            <!-- CARDS WITH TEXT OVERLAY -->
+
+            <div class="content-title">Cards with Text Overlay</div>
+            <div class="content-subtitle">
+               <p> Cards with text overlay can be used to show a text inside on the image box</p>
+            </div>
             <div class="content-example padding">
-              <div class="cards basic">
+              <div class="cards textovermedia">
                 <div class="img_text">
-                    <span class="top-left-badge">On Sale</span>
-                    <i class="fa-solid fa-circle-xmark fa-lg top-right-badge"></i>
-                    <div class="cards-image">
-                      <img  src="https://picsum.photos/350/250" />
-                    </div>
-                  <div class="cards-title">
+                  <div class="cards-image">
+                    <img  src="https://picsum.photos/350/250" />
+                  </div>
+                  <div class="cards-title onimage">
                     <p><b>Our Changing planet</b></p>
-                    <small> by Kurt Wagner </small>
+                    <small> <b>by Kurt Wagner </b> </small>
                   </div>
-                  <div class="cards-description">
-                    <p>
-                      Visit ten places on our planet that are undergoing the biggest
-                      changes today.
-                    </p>
-                  </div>
+        
+                  <p class="cards-description">
+                    Visit ten places on our planet that are undergoing the biggest
+                    changes today.
+                  </p>
                 </div>
                 <div class="buttons_icons">
                   <button class="btn-card read">Read</button>
@@ -192,13 +221,6 @@
                   <i class=" fas fa-ellipsis-v fa-lg"></i>
                 </div>
               </div>
-            </div>
-            
-            <!-- CARDS WITH TEXT OVERLAY -->
-
-            <div class="content-title">Cards with Text Overlay</div>
-            <div class="content-subtitle">
-               <p> Cards with text overlay can be used to show a text inside on the image box</p>
             </div>
             <pre>
               <code class="plaintext max-height">
@@ -227,36 +249,20 @@
               &lt;/div&gt;
               </code>
             </pre>
-            <div class="content-example padding">
-              <div class="cards textovermedia">
-                <div class="img_text">
-                  <div class="cards-image">
-                    <img  src="https://picsum.photos/350/250" />
-                  </div>
-                  <div class="cards-title onimage">
-                    <p><b>Our Changing planet</b></p>
-                    <small> <b>by Kurt Wagner </b> </small>
-                  </div>
-        
-                  <p class="cards-description">
-                    Visit ten places on our planet that are undergoing the biggest
-                    changes today.
-                  </p>
-                </div>
-                <div class="buttons_icons">
-                  <button class="btn-card read">Read</button>
-                  <button class="btn-card bookmark">Bookmark</button>
-                  <i class=" far fa-heart fa-lg"></i>
-                  <i class=" fas fa-share-alt fa-lg"></i>
-                  <i class=" fas fa-ellipsis-v fa-lg"></i>
-                </div>
-              </div>
-            </div>
-
             <!-- TEXT ONLY CARD  -->
             <div class="content-title">Text only card</div>
             <div class="content-subtitle">
                <p> As the title suggests, text only cards contains of Title & description only</p>
+            </div>
+            <div class="content-example padding">
+              <div class="cards textonly">
+                <div class="text-only-title">
+                  Title
+                </div>
+                <div class="text-only-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi earum iste vero, facere blanditiis consequuntur odio? Qui laboriosam culpa adipisci, saepe ullam perferendis magnam ipsa ex repudiandae, enim libero?
+                </div>
+              </div>
             </div>
             <pre>
               <code class="plaintext max-height">
@@ -270,22 +276,31 @@
               &lt;/div&gt;
               </code>
             </pre>
-            <div class="content-example padding">
-              <div class="cards textonly">
-                <div class="text-only-title">
-                  Title
-                </div>
-                <div class="text-only-description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi earum iste vero, facere blanditiis consequuntur odio? Qui laboriosam culpa adipisci, saepe ullam perferendis magnam ipsa ex repudiandae, enim libero?
-                </div>
-              </div>
-            </div>
-
             <!-- Vertical / Horizontal Cards -->
           
             <div class="content-title">Horizontal Cards </div>
             <div class="content-subtitle">
                <p> Horizontal are the most commonly used cards, they should be easy to scan for relevant and actionable information.</p>
+            </div>
+            <div class="content-example padding">
+              <div class="cards horizontal">
+                <div class="img_txt_onside">
+                  <div class="image_div">
+                    <img src="https://picsum.photos/110/110" />
+                  </div>
+                  <div class="cards-title-horizontal">
+                    <p><b>Our Changing planet</b></p>
+                    <small> <b>by Kurt Wagner </b> </small>
+                  </div>
+                </div>
+                <div class="buttons_icons">
+                  <button class="btn-card read">Read</button>
+                  <button class="btn-card bookmark">Bookmark</button>
+                  <i class=" far fa-heart fa-lg"></i>
+                  <i class=" fas fa-share-alt fa-lg"></i>
+                  <i class=" fas fa-ellipsis-v fa-lg"></i>
+                </div>
+              </div>  
             </div>
             <pre>
               <code class="plaintext max-height">
@@ -309,31 +324,27 @@
               &lt;/div&gt;
               </code>
             </pre>
-            <div class="content-example padding">
-              <div class="cards horizontal">
-                <div class="img_txt_onside">
-                  <div class="image_div">
-                    <img src="https://picsum.photos/110/110" />
-                  </div>
-                  <div class="cards-title-horizontal">
-                    <p><b>Our Changing planet</b></p>
-                    <small> <b>by Kurt Wagner </b> </small>
-                  </div>
-                </div>
-                <div class="buttons_icons">
-                  <button class="btn-card read">Read</button>
-                  <button class="btn-card bookmark">Bookmark</button>
-                  <i class=" far fa-heart fa-lg"></i>
-                  <i class=" fas fa-share-alt fa-lg"></i>
-                  <i class=" fas fa-ellipsis-v fa-lg"></i>
-                </div>
-              </div>  
-            </div>
-
             <!-- VERTICAL CARDS WITH SHADOW -->
             <div class="content-title">Vertical Cards With Shadow </div>
             <div class="content-subtitle">
                <p> Vertical are the most commonly used cards, they should be easy to scan for relevant and actionable information.</p>
+            </div>
+            <div class="content-example padding">
+              <div class="cards">
+                <div class="img_text">
+                    <span class="top-left-badge">On Sale</span>
+                    <i class="fa-solid fa-circle-xmark fa-lg top-right-badge"></i>
+                
+                      <img class="cards-image" src="https://picsum.photos/350/250" />
+                  <div class="cards-title vertical-card">
+                    <p><b>Our Changing planet</b></p>
+                    <small> ₹ 2000 </small>
+                  </div>
+                </div>
+                <div class="buttons_icons">
+                  <button class="btn-card vertical-card">Add to cart</button>
+                </div>
+              </div>
             </div>
             <pre>
               <code class="plaintext max-height">
@@ -354,23 +365,6 @@
                 &lt;/div&gt;
               </code>
             </pre>
-            <div class="content-example padding">
-              <div class="cards">
-                <div class="img_text">
-                    <span class="top-left-badge">On Sale</span>
-                    <i class="fa-solid fa-circle-xmark fa-lg top-right-badge"></i>
-                
-                      <img class="cards-image" src="https://picsum.photos/350/250" />
-                  <div class="cards-title vertical-card">
-                    <p><b>Our Changing planet</b></p>
-                    <small> ₹ 2000 </small>
-                  </div>
-                </div>
-                <div class="buttons_icons">
-                  <button class="btn-card vertical-card">Add to cart</button>
-                </div>
-              </div>
-            </div>
         </div>
       </div>
 </body>
