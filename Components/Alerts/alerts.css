@@ -25,7 +25,7 @@
 .header_content.danger {
   background-color: var(--alert-danger);
 }
-.header_content.success {
+.header_content.green {
   background-color: var(--success-green);
 }
 

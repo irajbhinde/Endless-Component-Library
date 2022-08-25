@@ -94,6 +94,6 @@ body {
 
 .subtext {
   font-size: 17px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: 38rem;
 }
