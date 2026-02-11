@@ -24,3 +24,7 @@
 .radio-btn{
   gap: 1rem;
 }
+
+.input-error{
+  outline: 1px solid var(--alert-danger);
+}

@@ -11,9 +11,25 @@
   color: var(--white-text-color);
 }
 
+.primary-btn:hover {
+  background-color: #2a456f;
+}
+
+.primary-btn:active {
+  background-color: #1f3453;
+}
+
 .secondary-btn {
   background-color: #ebba57;
   color: var(--white-text-color);
+}
+
+.secondary-btn:hover {
+  background-color: #e6a92e;
+}
+
+.secondary-btn:active {
+  background-color: #ab7914;
 }
 
 .icon-btn {
@@ -26,6 +42,10 @@
   color: white;
 }
 
+.link:hover {
+  background-color: #597ab2;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,21 +55,37 @@ a {
   min-width: 3.75rem;
   height: 3.75rem;
   color: tomato;
+  background-color: white;
+}
+
+.floating-plus:hover,
+.btn.floating-direction:hover,
+.btn.floatin-compass:hover {
+  background-color: #f5f5f5;
+}
+
+.floating-plus:active,
+.btn.floating-direction:active,
+.btn.floatin-compass:active {
+  background-color: #fcfafa;
 }
 
 .btn.floating-direction {
   border-radius: 50%;
   min-width: 3.75rem;
   height: 3.75rem;
+  background-color: white;
 }
 
 .btn.floatin-compass {
   border-radius: 50%;
   min-width: 3.75rem;
   height: 3.75rem;
+  background-color: white;
 }
 
-.btn.primary-btn.folder-icon, .btn.primary-btn.play-icon{
+.btn.primary-btn.folder-icon,
+.btn.primary-btn.play-icon {
   display: flex;
   align-items: center;
   gap: 0.625rem;
